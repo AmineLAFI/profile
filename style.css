@@ -1,0 +1,68 @@
+body {
+  background: #424142da;
+  font-family: 'Lora', serif;
+  color: #ffffff;
+  line-height: lighter;
+}
+
+h1, h2, h3 {
+  color:#000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  line-height: 15px;
+}
+h2 {
+  color: #ffffff;
+  font-family: fantasy, sans-serif;
+  font-size: 15px;
+}
+
+p {
+  color: rgba(238, 102, 53, 0.911);
+  font-size: 20px;
+}
+/* question :
+  faire le a.hover pour temps de clic
+ */
+a {
+  color:rgba(0, 0, 0, 0.712);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #da4c0be0;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.img-circle {
+  border-radius: 25%;
+  border-top: 7px solid rgba(0, 0, 0, 0.836);
+  border-right: 7px solid rgba(0, 0, 0, 0.836);
+  border-bottom: 7px solid rgba(0, 0, 0, 0.836);
+  border-left: 7px solid rgba(0, 0, 0, 0.836);
+  box-shadow: 20px 20px 40px black;
+  width: 500px;
+}
+
+.description {
+  text-align: center;
+}
+
+.inline {
+  display:flex;
+  gap: 20px;
+  padding: 0px;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
